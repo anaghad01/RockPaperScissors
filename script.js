@@ -2,9 +2,9 @@
 var score=0;
 var opscore=0;
 
-var rock="E:/WebDev/rps/reference/rock-paper-scissors-master/images/icon-rock.svg";
-var paper="E:/WebDev/rps/reference/rock-paper-scissors-master/images/icon-paper.svg";
-var scissors="E:/WebDev/rps/reference/rock-paper-scissors-master/images/icon-scissors.svg";
+var rock="images/icon-rock.svg";
+var paper="images/icon-paper.svg";
+var scissors="images/icon-scissors.svg";
 
 document.querySelector('.rock').addEventListener("click", function() {
 	document.getElementById("you").src=rock;
