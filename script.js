@@ -35,8 +35,8 @@ document.querySelector('.new').addEventListener("click", function v() {
 	document.getElementById("opsc").innerText="OPPONENT SCORE=0";
 	score=0;
 	opscore=0;
-	document.getElementById("you").src="E:/WebDev/rps/images/1200px-Icon-round-Question_mark.svg.png";
-	document.getElementById("opp").src="E:/WebDev/rps/images/1200px-Icon-round-Question_mark.svg.png";
+	document.getElementById("you").src="images/1200px-Icon-round-Question_mark.svg.png";
+	document.getElementById("opp").src="images/1200px-Icon-round-Question_mark.svg.png";
 	document.getElementById("en").innerText="Play in progress !!"
 });
 
